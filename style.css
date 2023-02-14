@@ -834,7 +834,6 @@ height: 100%;
 @media screen and (max-width: 440px) {
     .images {
         width: 30%;
-        height: 35%;
     }
  
     #gallery1 {
@@ -861,8 +860,7 @@ height: 100%;
     .about_img{
         width: 50%;
         border-radius:10px;
-        justify-self: center;
-        align-self: center;
+        
         padding-top: 0.5rem;
         padding-bottom: 0.5rem;
     }
