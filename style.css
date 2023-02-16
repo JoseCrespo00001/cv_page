@@ -834,6 +834,8 @@ height: 100%;
 @media screen and (max-width: 440px) {
     .images {
         width: 30%;
+        height: 35%;
+        
     }
  
     #gallery1 {
@@ -844,6 +846,7 @@ height: 100%;
     }
     #gallery1 img{
         width: 30%;
+        height: 30%;
     }
     #gallery1{
         padding: 1rem;
@@ -855,20 +858,42 @@ height: 100%;
     }
 
     .nav-active {
-    display: flex !important;
+        display: flex !important;
     }
-    .about_img{
-        width: 50%;
-        border-radius:10px;
-        
-        padding-top: 0.5rem;
-        padding-bottom: 0.5rem;
-    }
+    
     .swiper-slide{
-        padding-top: 5rem;
-        padding-bottom: 5rem;
+        padding-top: 10rem;
+        padding-bottom: 2rem;
         
         font-size: 20px;
+    }
+    .portfolio {
+        margin-bottom: 8rem;
+       
+        
+    }
+    
+    .about_img{
+        width: 50%;
+        height: 50%;
+        border-radius:10px;
+        justify-self: center;
+        align-self: center;
+        margin-top:1rem;
+    }
+    .about_description{
+        font-size: 1.5rem;
+        text-align: center;
+        margin-top: 1;
+    }
+
+    .about_container{
+        padding: 0rem;;
+        display: flex;
+        align-items:center;
+        justify-content:space-between;
+        
+        
     }
     
 
